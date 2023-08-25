@@ -1,0 +1,45 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+}
+
+.stopwatch{
+    width: 500px;
+    height: 500px;
+    color: white;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 50px;
+    color: black;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#sec{
+    font-size: 3em;
+}
+#min{
+    font-size: 3em;
+}
+button{
+    background-color: lightseagreen;
+    color: azure;
+    border: solid 2px black;
+    cursor: pointer;
+    width: 200px;
+    font-size: 1.5em;
+    padding: 20px 10px;
+    margin: 10px;
+    border-radius: 3px;
+    outline: none;
+    &:hover{
+        --webkit-transition: all ;
+        border: solid 2px black;
+        color: lightgrey;
+
+    }
+}
